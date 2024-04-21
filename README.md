@@ -1,74 +1,58 @@
-# farmOS
-
-[![Licence](https://img.shields.io/badge/Licence-GPL%202.0-blue.svg)](https://opensource.org/licenses/GPL-2.0/)
-[![Release](https://img.shields.io/github/release/farmOS/farmOS.svg?style=flat)](https://github.com/farmOS/farmOS/releases)
-[![Last commit](https://img.shields.io/github/last-commit/farmOS/farmOS.svg?style=flat)](https://github.com/farmOS/farmOS/commits)
-[![Docker](https://img.shields.io/docker/pulls/farmos/farmos.svg)](https://hub.docker.com/r/farmos/farmos/)
-[![Chat](https://img.shields.io/matrix/farmOS:matrix.org.svg)](https://app.element.io/#/room/#farmOS:matrix.org)
-[![Backers on Open Collective](https://opencollective.com/farmOS/backers/badge.svg)](#backers)
-[![Sponsors on Open Collective](https://opencollective.com/farmOS/sponsors/badge.svg)](#sponsors)
-
-farmOS is a web-based application for farm management, planning, and record
-keeping. It is developed by a community of volunteers and aims to provide a
-standard platform for farmers, developers, and researchers to build upon.
-
-Official website: [farmOS.org](https://farmOS.org)
-
-## GETTING STARTED
-
-If you would like to install and host farmOS yourself, see the official
-documentation on farmOS.org: https://farmOS.org/hosting/install
-
-If you would like to pay for hosting, [Farmier](https://farmier.com) provides
-affordable options for individual farms and organizations.
-
-## MAINTAINERS
-
-Current maintainers:
- * Michael Stenta (m.stenta) - https://drupal.org/user/581414
-
-This project has been sponsored by:
- * [Farmier](http://farmier.com)
- * [Cornell University](http://www.cornell.edu)
- * [Vermont Agency of Agriculture Food & Markets](http://agriculture.vermont.gov)
- * [Vermont Housing & Conservation Board](http://www.vhcb.org)
- * [UVM Extension](https://www.uvm.edu/extension)
- * [Globetrotter Foundation](http://globetrotterfoundation.org)
- * [Vermont Vegetable and Berry Growers Association](http://www.uvm.edu/vtvegandberry)
- * [Pennsylvania Association for Sustainable Agriculture](https://pasafarming.org)
- * [Natural Resources Conservation Service](https://www.nrcs.usda.gov)
- * [The United States Forest Service - International Programs](https://www.fs.fed.us/about-agency/international-programs)
- * [The National Forestry Authority of Uganda](https://www.nfa.org.ug/)
- * [Our Sci](http://our-sci.net)
- * [Bionutrient Food Association](https://bionutrient.org)
- * [Foundation for Food and Agriculture Research](https://foundationfar.org/)
- * [PVAMU College of Agriculture and Human Sciences](https://www.pvamu.edu/cahs/)
- * [Rothamsted Research](https://www.rothamsted.ac.uk/)
- * [OpenTEAM](https://openteam.community)
- * [Wolfe's Neck Center for Agriculture and the Environment](https://www.wolfesneck.org)
-
-## CONTRIBUTORS
-
-This project exists thanks to all the people who contribute.
-<a href="https://github.com/farmOS/farmOS/graphs/contributors"><img src="https://opencollective.com/farmOS/contributors.svg?width=890&button=false" /></a>
-
-## OPENCOLLECTIVE BACKERS
-
-Thank you to all our OpenCollective backers! [[Become a backer](https://opencollective.com/farmOS#backer)]
-
-<a href="https://opencollective.com/farmOS#backers" target="_blank"><img src="https://opencollective.com/farmOS/backers.svg?width=890"></a>
-
-## OPENCOLLECTIVE SPONSORS
-
-Support this project by becoming an OpenCollective sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/farmOS#sponsor)]
-
-<a href="https://opencollective.com/farmOS/sponsor/0/website" target="_blank"><img src="https://opencollective.com/farmOS/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/farmOS/sponsor/1/website" target="_blank"><img src="https://opencollective.com/farmOS/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/farmOS/sponsor/2/website" target="_blank"><img src="https://opencollective.com/farmOS/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/farmOS/sponsor/3/website" target="_blank"><img src="https://opencollective.com/farmOS/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/farmOS/sponsor/4/website" target="_blank"><img src="https://opencollective.com/farmOS/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/farmOS/sponsor/5/website" target="_blank"><img src="https://opencollective.com/farmOS/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/farmOS/sponsor/6/website" target="_blank"><img src="https://opencollective.com/farmOS/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/farmOS/sponsor/7/website" target="_blank"><img src="https://opencollective.com/farmOS/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/farmOS/sponsor/8/website" target="_blank"><img src="https://opencollective.com/farmOS/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/farmOS/sponsor/9/website" target="_blank"><img src="https://opencollective.com/farmOS/sponsor/9/avatar.svg"></a>
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">农场操作系统</font></font></h1><a id="user-content-farmos" class="anchor" aria-label="永久链接：farmOS" href="#farmos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://opensource.org/licenses/GPL-2.0/" rel="nofollow"><img src="https://camo.githubusercontent.com/0ac87703a1c3e9a25f2deddc503ee638c9e6d970dbc8adc36135a6b67e2d4db2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e63652d47504c253230322e302d626c75652e737667" alt="执照" data-canonical-src="https://img.shields.io/badge/Licence-GPL%202.0-blue.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/farmOS/farmOS/releases"><img src="https://camo.githubusercontent.com/e11c73a2caed65dbbb15e5cf213300fc491d80adafde9cabe8f758097ec8f3f5/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f72656c656173652f6661726d4f532f6661726d4f532e7376673f7374796c653d666c6174" alt="发布" data-canonical-src="https://img.shields.io/github/release/farmOS/farmOS.svg?style=flat" style="max-width: 100%;"></a>
+<a href="https://github.com/farmOS/farmOS/commits"><img src="https://camo.githubusercontent.com/50a15d0bce09f8e38deac8753a39864fd6c8b26f3d537118a3efed5fa81e6a99/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6173742d636f6d6d69742f6661726d4f532f6661726d4f532e7376673f7374796c653d666c6174" alt="最后一次提交" data-canonical-src="https://img.shields.io/github/last-commit/farmOS/farmOS.svg?style=flat" style="max-width: 100%;"></a>
+<a href="https://hub.docker.com/r/farmos/farmos/" rel="nofollow"><img src="https://camo.githubusercontent.com/8dc7c3f8cb2a4188a672663e2b935b9f591d6f400dbee60ee73d8f9d4524931e/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f6661726d6f732f6661726d6f732e737667" alt="码头工人" data-canonical-src="https://img.shields.io/docker/pulls/farmos/farmos.svg" style="max-width: 100%;"></a>
+<a href="https://app.element.io/#/room/#farmOS:matrix.org" rel="nofollow"><img src="https://camo.githubusercontent.com/7d4a82baeda53187d48fa5f480e4a18d753908ba13c10cf133793bfc08474985/68747470733a2f2f696d672e736869656c64732e696f2f6d61747269782f6661726d4f533a6d61747269782e6f72672e737667" alt="聊天" data-canonical-src="https://img.shields.io/matrix/farmOS:matrix.org.svg" style="max-width: 100%;"></a>
+<a href="#backers"><img src="https://camo.githubusercontent.com/1caced3ab06e62068d0d2d1b748e31d03498a18f24780a0dd68c80e9995da60a/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6661726d4f532f6261636b6572732f62616467652e737667" alt="Open Collective 的支持者" data-canonical-src="https://opencollective.com/farmOS/backers/badge.svg" style="max-width: 100%;"></a>
+<a href="#sponsors"><img src="https://camo.githubusercontent.com/93f8f3369dc1e8a2ff97415f6920dfc778a9e062dd955d8139d425cf43d2f855/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6661726d4f532f73706f6e736f72732f62616467652e737667" alt="开放集体的赞助商" data-canonical-src="https://opencollective.com/farmOS/sponsors/badge.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">farmOS 是一个基于网络的应用程序，用于农场管理、规划和记录保存。它由志愿者社区开发，旨在为农民、开发人员和研究人员提供一个标准平台。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方网站：</font></font><a href="https://farmOS.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">farmOS.org</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2><a id="user-content-getting-started" class="anchor" aria-label="永久链接：开始使用" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想自己安装和托管 farmOS，请参阅 farmOS.org 上的官方文档：</font></font><a href="https://farmOS.org/hosting/install" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://farmOS.org/hosting/install</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想支付托管费用，</font></font><a href="https://farmier.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Farmier</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以为个体农场和组织提供经济实惠的选择。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">维护者</font></font></h2><a id="user-content-maintainers" class="anchor" aria-label="永久链接：维护者" href="#maintainers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当前维护者：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">迈克尔·斯坦塔 (m.stenta) - </font></font><a href="https://drupal.org/user/581414" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://drupal.org/user/581414</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目得到了以下机构的赞助：</font></font></p>
+<ul dir="auto">
+<li><a href="http://farmier.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">法米尔</font></font></a></li>
+<li><a href="http://www.cornell.edu" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">康奈尔大学</font></font></a></li>
+<li><a href="http://agriculture.vermont.gov" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">佛蒙特州农业食品与市场局</font></font></a></li>
+<li><a href="http://www.vhcb.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">佛蒙特州住房和保护委员会</font></font></a></li>
+<li><a href="https://www.uvm.edu/extension" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UVM扩展</font></font></a></li>
+<li><a href="http://globetrotterfoundation.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">环球旅行者基金会</font></font></a></li>
+<li><a href="http://www.uvm.edu/vtvegandberry" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">佛蒙特州蔬菜和浆果种植者协会</font></font></a></li>
+<li><a href="https://pasafarming.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">宾夕法尼亚可持续农业协会</font></font></a></li>
+<li><a href="https://www.nrcs.usda.gov" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自然资源保护服务</font></font></a></li>
+<li><a href="https://www.fs.fed.us/about-agency/international-programs" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">美国林务局 - 国际项目</font></font></a></li>
+<li><a href="https://www.nfa.org.ug/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">乌干达国家林业局</font></font></a></li>
+<li><a href="http://our-sci.net" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的科学</font></font></a></li>
+<li><a href="https://bionutrient.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生物营养食品协会</font></font></a></li>
+<li><a href="https://foundationfar.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">食品和农业研究基金会</font></font></a></li>
+<li><a href="https://www.pvamu.edu/cahs/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PVAMU 农业与人文科学学院</font></font></a></li>
+<li><a href="https://www.rothamsted.ac.uk/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">洛桑研究中心</font></font></a></li>
+<li><a href="https://openteam.community" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放团队</font></font></a></li>
+<li><a href="https://www.wolfesneck.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">沃尔夫颈农业与环境中心</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献者</font></font></h2><a id="user-content-contributors" class="anchor" aria-label="永久链接：贡献者" href="#contributors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个项目的存在要感谢所有做出贡献的人。
+</font></font><a href="https://github.com/farmOS/farmOS/graphs/contributors"><img src="https://camo.githubusercontent.com/d5168f0f37082adecfc0ec349cecac0597a6585aef68ff88279d7413cb8de54e/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6661726d4f532f636f6e7472696275746f72732e7376673f77696474683d38393026627574746f6e3d66616c7365" data-canonical-src="https://opencollective.com/farmOS/contributors.svg?width=890&amp;button=false" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放集体支持者</font></font></h2><a id="user-content-opencollective-backers" class="anchor" aria-label="永久链接：开放集体支持者" href="#opencollective-backers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">感谢我们所有 OpenCollective 支持者！ [</font></font><a href="https://opencollective.com/farmOS#backer" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成为支持者</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">]</font></font></p>
+<p dir="auto"><a href="https://opencollective.com/farmOS#backers" rel="nofollow"><img src="https://camo.githubusercontent.com/bc98e99ed3dca6d3f2099609ec058105c56ec920439e847b8efe1b7e60d6e8c4/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6661726d4f532f6261636b6572732e7376673f77696474683d383930" data-canonical-src="https://opencollective.com/farmOS/backers.svg?width=890" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放集体赞助商</font></font></h2><a id="user-content-opencollective-sponsors" class="anchor" aria-label="永久链接：开放集体赞助商" href="#opencollective-sponsors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成为 OpenCollective 赞助商来支持该项目。您的徽标将显示在此处，并带有指向您网站的链接。 [</font></font><a href="https://opencollective.com/farmOS#sponsor" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成为赞助商</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">]</font></font></p>
+<p dir="auto"><a href="https://opencollective.com/farmOS/sponsor/0/website" rel="nofollow"><img src="https://camo.githubusercontent.com/f851ee55f61479bb063072e30e082cbdb30dc2f772a9e087aae5499c1fc23e02/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6661726d4f532f73706f6e736f722f302f6176617461722e737667" data-canonical-src="https://opencollective.com/farmOS/sponsor/0/avatar.svg" style="max-width: 100%;"></a>
+<a href="https://opencollective.com/farmOS/sponsor/1/website" rel="nofollow"><img src="https://camo.githubusercontent.com/7220941bd1d9d912ed1d8fc99688227ab4aac8cae0b364ea136d1f9fad8f9cce/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6661726d4f532f73706f6e736f722f312f6176617461722e737667" data-canonical-src="https://opencollective.com/farmOS/sponsor/1/avatar.svg" style="max-width: 100%;"></a>
+<a href="https://opencollective.com/farmOS/sponsor/2/website" rel="nofollow"><img src="https://camo.githubusercontent.com/80453686078e5e947d9505a75aef7dac73e4d6f0f70fc06a85f862eb6fd7bb02/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6661726d4f532f73706f6e736f722f322f6176617461722e737667" data-canonical-src="https://opencollective.com/farmOS/sponsor/2/avatar.svg" style="max-width: 100%;"></a>
+<a href="https://opencollective.com/farmOS/sponsor/3/website" rel="nofollow"><img src="https://camo.githubusercontent.com/62b7e2e197125065795de87447cccb2640678bbbb45a7be3ce12265cf8e8a2d9/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6661726d4f532f73706f6e736f722f332f6176617461722e737667" data-canonical-src="https://opencollective.com/farmOS/sponsor/3/avatar.svg" style="max-width: 100%;"></a>
+<a href="https://opencollective.com/farmOS/sponsor/4/website" rel="nofollow"><img src="https://camo.githubusercontent.com/6ed670580d77b82feba33d8b1a2d17f5e348cd5fa0be0265a3045eb04a2b8421/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6661726d4f532f73706f6e736f722f342f6176617461722e737667" data-canonical-src="https://opencollective.com/farmOS/sponsor/4/avatar.svg" style="max-width: 100%;"></a>
+<a href="https://opencollective.com/farmOS/sponsor/5/website" rel="nofollow"><img src="https://camo.githubusercontent.com/946d8951ca43dccc92d33ad5b8041f51f03564ca459d5a6a6e0fd76e776461f5/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6661726d4f532f73706f6e736f722f352f6176617461722e737667" data-canonical-src="https://opencollective.com/farmOS/sponsor/5/avatar.svg" style="max-width: 100%;"></a>
+<a href="https://opencollective.com/farmOS/sponsor/6/website" rel="nofollow"><img src="https://camo.githubusercontent.com/fe4c7e0a28feb0fa4d351bd742fcc9b69cb97d955b48a18a241a70104ff24bbf/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6661726d4f532f73706f6e736f722f362f6176617461722e737667" data-canonical-src="https://opencollective.com/farmOS/sponsor/6/avatar.svg" style="max-width: 100%;"></a>
+<a href="https://opencollective.com/farmOS/sponsor/7/website" rel="nofollow"><img src="https://camo.githubusercontent.com/c6037c01c3130fc9ecededa87c045901793cd4fba4ebf9f8b8510b0f5d91abf5/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6661726d4f532f73706f6e736f722f372f6176617461722e737667" data-canonical-src="https://opencollective.com/farmOS/sponsor/7/avatar.svg" style="max-width: 100%;"></a>
+<a href="https://opencollective.com/farmOS/sponsor/8/website" rel="nofollow"><img src="https://camo.githubusercontent.com/45f001b0cb2ef85c164d5fa8380a6581a29664a47cb290a157fe20c8b65c72ee/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6661726d4f532f73706f6e736f722f382f6176617461722e737667" data-canonical-src="https://opencollective.com/farmOS/sponsor/8/avatar.svg" style="max-width: 100%;"></a>
+<a href="https://opencollective.com/farmOS/sponsor/9/website" rel="nofollow"><img src="https://camo.githubusercontent.com/d2f615bd0e41b86efbb07bfb6a3fd35c4edc3e948b8a9400ff3f6db828b1e742/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6661726d4f532f73706f6e736f722f392f6176617461722e737667" data-canonical-src="https://opencollective.com/farmOS/sponsor/9/avatar.svg" style="max-width: 100%;"></a></p>
+</article></div>
